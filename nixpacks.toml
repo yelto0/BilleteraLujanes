@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["mvn clean package"]
+
+[start]
+cmd = "mvn tomcat7:run"
