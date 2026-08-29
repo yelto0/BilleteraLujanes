@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["mvn clean package"]
+
+[start]
+cmd = "java -jar target/BilleteraLujanes-1.0-SNAPSHOT.war"
