@@ -1,5 +1,0 @@
-[phases.build]
-cmds = ["mvn clean package"]
-
-[start]
-cmd = "java -jar target/*.war"
